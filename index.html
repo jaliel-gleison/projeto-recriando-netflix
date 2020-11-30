@@ -4,6 +4,15 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style/main.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!--responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <!--owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
         <title>NETFLIX CLONE</title>
     </head>
     <body>
@@ -25,13 +34,57 @@
                         <P class="descricao">Borat retorna aos Estados Unidos e dessa vez 
                             procura oferecer a sua filha em casamento para o vice-presidente, Mike Pence.
                         </P>
-                        <div class="botao">
-                        <button role="button" class="botao">ASSISTIR AGORA</button>
-                        <button role="button" class="botao">MAIS INFÓRMAÇÕES</button>
+                        <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFÓRMAÇÕES</button>
                         </div>
                     </div>
                 </div>
             </main>
 
+                <div class="carrosel-filmes">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                             <img class="box-filmes" src="img/mini1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/mini2.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                             <img class="box-filmes" src="img/mini3.jpg" alt="">
+                        </div>
+                        <div class=" item">
+                             <img class="box-filmes" src="img/mini4.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                             <img class="box-filmes" src="img/mini5.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                            <img class="box-filmes" src="img/mini6.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                            <img class="box-filmes" src="img/mini7.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                            <img class="box-filmes" src="img/mini8.jpg" alt="">
+                        </div> 
+                        <div class="item">
+                            <img class="box-filmes" src="img/mini9.jpg" alt="">
+                        </div>
+                         <div class="item">
+                            <img class="box-filmes" src="img/mini10.jpg" alt="">
+                         </div>
+                    </div>
+                </div>
+
+            <script src="https://kit.fontawesome.com/d2261a6d6f.js" crossorigin="anonymous"></script>
+            <script src="js/owl/jquery.min.js"></script>
+            <script src="js/owl/owl.carousel.min.js"></script>
+            <script src="js/owl/setup.js"></script>
     </body>
 </html>
